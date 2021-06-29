@@ -1,0 +1,20 @@
+import java.util.*;
+public class EvenOdd
+{
+public static void main(string args[])
+{
+int n,rev=0,even=0,odd=0;
+Scanner s=new Scanner (System.in);
+System.out.println("Enter a value:");
+n=s.nextInt();
+While(n>0){
+rev=n%10;
+if(rec%2==0)
+even++;
+else
+odd++;
+n=n/10;}
+System.out.println("number of even digits in given value:"+even);
+System.out.println("number of odd digits in given value:"+odd);
+}
+}
